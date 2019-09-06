@@ -2,7 +2,7 @@ import React from "react";
 import SignUpForm from "./LoginForm";
 import request from "superagent";
 
-const baseUrl = "http://localhost:4000";
+const baseUrl = "https://limitless-lake-21444.herokuapp.com";
 
 class SignUpFormContainer extends React.Component {
   state = { email: "", password: "" };
