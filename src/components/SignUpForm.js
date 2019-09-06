@@ -22,7 +22,7 @@ class SignUpForm extends React.Component {
             onChange={this.props.onChange}
           />
         </label>
-        <button type="submit">Login</button>
+        <button type="submit">Sign up</button>
       </form>
     );
   }
